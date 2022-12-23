@@ -14,6 +14,7 @@
         body{
             background-color: aquamarine;
         }
+        
     </style>
 </head>
 <body>
@@ -56,5 +57,6 @@ let totalMarks = studentRecords.map(function(stu){
             return stu;
         }).filter(stu => stu.marks > 50).reduce((acc,curr) => acc+curr.marks, 0);
 console.log(totalMarks);</pre><hr>
+<script src="main.js"></script>
 </body>
 </html>
